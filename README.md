@@ -19,7 +19,7 @@ A fixed-size bucket holds tokens. Each request consumes one token. Tokens are re
 
 Incoming requests enter a bucket. Requests are processed (leaked) at a constant rate. If full, requests are dropped.
 
-![Leaky Bucket](./LeakyBucket.png)
+![Leaky Bucket]("https://cdn.prod.website-files.com/62db30bc372ce21ab184bf7b/6633f416d229ad4ed653c7de_Leaky%20Bucket%20Algorithm.avif")
 
 - Smoothens traffic spikes
 - Enforces steady flow rate
